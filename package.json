@@ -1,0 +1,29 @@
+{
+  "name": "hiring",
+  "version": "1.0.0",
+  "description": "Hiring App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ross22/Demo.git"
+  },
+  "author": "Roushan Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ross22/Demo/issues"
+  },
+  "homepage": "https://github.com/ross22/Demo#readme"
+}
