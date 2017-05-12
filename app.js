@@ -21,11 +21,12 @@ mongoose.connection.on('error', (err) => {
 
 const app = express();
 
-const users = require('./routes/users');
+const jobs = require('./routes/jobs');
 
 // Define Port
 const port = 3000;
 
+// Use CORS
 app.use(cors());
 
 // Set Static Folder
@@ -34,7 +35,7 @@ app.use(express.static(path.join(__dirname, 'view')));
 // Body Parser Middleware
 app.use(bodyParser.json());
 
-app.use('/users', users);
+app.use('/jobs', jobs);
 
 // Index Route
 app.get('/', (req, res) => {
